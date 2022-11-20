@@ -6,6 +6,106 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/nota1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nota 1"
+        android:background="@color/gray_light"
+        android:inputType="number"
+        android:maxLength="2"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/nota2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nota 2"
+        android:background="@color/gray_light"
+        android:inputType="number"
+        android:maxLength="2"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/nota3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nota 3"
+        android:background="@color/gray_light"
+        android:inputType="number"
+        android:maxLength="2"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_below="@+id/nota1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/nota4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Nota 4"
+        android:background="@color/gray_light"
+        android:inputType="number"
+        android:maxLength="2"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_below="@+id/nota2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/numeroFaltas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="Número de Faltas"
+        android:background="@color/gray_light"
+        android:inputType="number"
+        android:maxLength="2"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_below="@+id/nota3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/bt_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_below="@+id/numeroFaltas"
+        android:layout_margin="30dp"
+        android:padding="20dp"
+        android:backgroundTint="@color/gray_dark"/>
+
+    <TextView
+        android:id="@+id/txt_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aluno foi APROVADO!"
+        android:layout_below="@+id/bt_calcular"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
 
 </RelativeLayout>
