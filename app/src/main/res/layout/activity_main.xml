@@ -100,7 +100,7 @@
         android:id="@+id/txt_resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aluno foi APROVADO!"
+        android:text=""
         android:layout_below="@+id/bt_calcular"
         android:gravity="center"
         android:layout_centerHorizontal="true"
